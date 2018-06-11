@@ -6,5 +6,9 @@
 //
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
+import 'babel-polyfill'
+import 'stylesheets/application'
+import 'bootstrap'
+import WebpackerReact from 'webpacker-react'
 
 console.log('Hello World from Webpacker')
