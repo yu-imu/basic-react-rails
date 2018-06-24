@@ -1,12 +1,10 @@
 import React from 'react'// eslint-disable-line
 import { render } from 'react-dom'
-import App from './containers/app'// eslint-disable-line
-import { createStore } from 'redux'
+import App from './components/app'// eslint-disable-line
 import { Provider } from 'react-redux'// eslint-disable-line
-import reducer from './reducers/reducer'
+import configureStore from './store/configureStore'
 
-const store = createStore(reducer)
-
+const store = configureStore()
 document.addEventListener('DOMContentLoaded', () => {
     render (
         <Provider store={store}>

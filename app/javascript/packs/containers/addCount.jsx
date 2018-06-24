@@ -1,11 +1,11 @@
 import React from 'react' // eslint-disable-line
-import App from '../components/app'
+import AddCount from '../components/AddCount'
 import { increment } from '../actions/app'
 import { connect } from 'react-redux'
 
 // if you want to debug? to use debugger
 function mapStateToProps(state) {
-    return state
+    return state.addCount
 }
 
 function mapDispatchToProps(dispatch) {
@@ -14,4 +14,4 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default connect(mapStateToProps, mapDispatchToProps)(AddCount)
