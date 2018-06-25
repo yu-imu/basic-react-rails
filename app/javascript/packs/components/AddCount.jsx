@@ -14,7 +14,7 @@ export default class AddCount extends React.Component {
         )
     }
 }
-AddCount.PropTypes = {
+AddCount.propTypes = {
     num: PropTypes.number,
     handleClick: PropTypes.func
 }
