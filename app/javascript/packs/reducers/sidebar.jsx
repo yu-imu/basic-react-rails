@@ -1,4 +1,4 @@
-import {PAGE1, PAGE2, PAGE3, PAGE4} from '../actions/app'
+import {PAGE1, PAGE2, PAGE3, PAGE4} from '../actions/sidebar'
 const initialState = {
     value: 'PAGE1'
 }

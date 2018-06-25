@@ -1,6 +1,6 @@
 import React from 'react' // eslint-disable-line
 import AddCount from '../components/AddCount'
-import { increment } from '../actions/app'
+import { increment } from '../actions/addCount'
 import { connect } from 'react-redux'
 
 // if you want to debug? to use debugger
